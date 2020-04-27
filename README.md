@@ -8,8 +8,9 @@ usage: manage.py check_ldap [-h] -u USER -p PASSWORD
 
 required arguments:
 
--u USER, --user USERNAME 
--u USER, --user USERNAME 
+-u USER
+
+-p PASSWORD 
 
 
 optional arguments:
