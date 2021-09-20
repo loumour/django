@@ -8,7 +8,7 @@ import logging
 
 class Command(BaseCommand):
 
-    help =  "Checks the existence of the user locally and his authentication via the LDAP server"
+    help =  "Checks the existence of the user locally (stored in a Django database) and his authentication via the LDAP server"
     def add_arguments(self, parser):
         super(Command, self).add_arguments(parser)
         parser.add_argument('-u', '--user', type=str, help='Define a username', )
