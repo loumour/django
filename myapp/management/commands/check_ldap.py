@@ -5,7 +5,7 @@ import ldap3
 from ldap3.core.exceptions import LDAPException
 from django_python3_ldap.conf import settings
 import logging
-
+#Check ldap User authentication
 class Command(BaseCommand):
 
     help =  "Checks the existence of the django user (stored in a Django database) and his authentication via the LDAP server"
